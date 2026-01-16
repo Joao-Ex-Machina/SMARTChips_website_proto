@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "SmartChips"
+theme = 'ananke'
+
+
+[params]
+text_color = ""
+author = ""
+favicon = ""
+site_logo = ""
+description = "In-Silicon NPU investigation project"
+background_color_class = "bg-black"
+recent_posts_number = 3
+custom_css = ["css/custom.css"]
+

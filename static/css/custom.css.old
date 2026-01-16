@@ -1,0 +1,139 @@
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  background: #e3f2fd;       /* 🔹 Light blue card color */
+  border-radius: 12px;
+  overflow: hidden;
+  height: auto;              /* compact */
+  max-width: 220px;          /* makes it smaller */
+  margin: 0 auto;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* IMAGE AREA */
+.research-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: 180px;             /* smaller than before */
+  background: #cfd8dc;       /* subtle gray-blue fallback */
+}
+
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* TEXT AREA */
+.research-info {
+  padding: 0.75rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.research-info h3 {
+  margin: 0.25rem 0 0.15rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.research-info p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+/* ICONS */
+.research-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0 0.75rem;
+}
+
+.research-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.research-icons a:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* make the clickable area full card except icons */
+.research-main {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.research-info .title {
+  margin: 0.25rem 0 0.1rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.research-info .institution {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* ===== TEAM LAYOUT ===== */
+
+.team-row.center {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.team-row.masonry {
+  column-count: 3;
+  column-gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+/* Masonry behavior */
+.team-row.masonry .research-card {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/* PI emphasis */
+.research-card.pi {
+  max-width: 260px;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .team-row.masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .team-row.masonry {
+    column-count: 1;
+  }
+}
+
+

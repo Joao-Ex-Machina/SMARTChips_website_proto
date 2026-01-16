@@ -1,0 +1,59 @@
+<div class="team-section">
+
+  <!-- PI (order == 0) -->
+  <div class="team-row center">
+    {{ range where site.Data.research_team "order" 0 }}
+      <div class="research-card pi">
+        <a class="research-main" href="{{ .link }}" target="_blank" rel="noopener">
+          <div class="research-image">
+            <img src="{{ .image }}" alt="{{ .name }}">
+          </div>
+          <div class="research-info">
+            <h3>{{ .name }}</h3>
+            <p class="title">{{ .title }}</p>
+            {{ if .institution }}
+            <p class="institution">{{ .institution }}</p>
+            {{ end }}
+          </div>
+        </a>
+
+        {{ if or .orcid .cienciavitae }}
+        <div class="research-icons">
+          {{ if .orcid }}
+            <a href="{{ .orcid }}" target="_blank" rel="noopener">
+              <img src="/icons/orcid.svg" alt="ORCID">
+            </a>
+          {{ end }}
+          {{ if .cienciavitae }}
+            <a href="{{ .cienciavitae }}" target="_blank" rel="noopener">
+              <img src="/icons/cienciavitae.svg" alt="Ciencia Vitae">
+            </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- Seniors (order 1–9) -->
+  <div class="team-row masonry">
+    {{ range sort (where site.Data.research_team "order" "<" 10) "order" }}
+      {{ if ne .order 0 }}
+        <div class="research-card">
+          {{ partial "research-card-content.html" . | safeHTML }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <!-- Early-stage (order >= 10) -->
+  <div class="team-row masonry">
+    {{ range sort (where site.Data.research_team "order" ">=" 10) "order" }}
+      <div class="research-card">
+        {{ partial "research-card-content.html" . | safeHTML }}
+      </div>
+    {{ end }}
+  </div>
+
+</div>
+

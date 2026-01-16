@@ -1,0 +1,64 @@
+- name: Mário Véstias
+  title: Principal Investigator
+  order: 0
+  image: Mario-Vestias.jpg
+  institution: INESC-INOvLabs
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+- name: Horácio Neto
+  title: Senior Researcher
+  order: 1
+  image: Horacio-Neto.jpg 
+  institution: INESC-INOvLabs
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+- name: José Teixeira de Sousa
+  title: Senior Researcher
+  order: 1
+  image: Jose-Teixeira-de-Sousa.jpg
+  institution: INESC-INOvLabs
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+- name: Rui Policarpo Duarte
+  title: Senior Researcher
+  order: 1
+  image: Rui-Duarte.jpg
+  institution: INESC-INOvLabs
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+- name: João Vaz
+  title: Senior Researcher
+  order: 1
+  image: Joao-Vaz.jpg 
+  institution: IT
+  link:
+  orcid: 
+  cienciavitae: 
+
+- name: João Barreiros Rodrigues
+  title: Early-Stage Researcher
+  institution: INESC-INOvLabs
+  order: 10
+  image: Joao-Rodrigues.jpg
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+- name: João Barreiros C. Rodrigues
+  title: Early-Stage Researcher
+  institution: INESC-INOvLabs
+  order: 10
+  image: Joao-Rodrigues.jpg
+  link: https://jbcr.pt
+  orcid: https://orcid.org/0000-0002-1825-0097
+  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+
+

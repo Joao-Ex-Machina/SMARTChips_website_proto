@@ -1,0 +1,147 @@
+/* =========================
+   TEAM SECTION BREAKOUT
+   ========================= */
+
+.team-section {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 2rem 1rem;
+}
+
+/* =========================
+   HIERARCHICAL LAYOUT
+   ========================= */
+
+.team-row.center {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+/* Masonry rows */
+.team-row.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, max-content));
+  gap: 1rem;
+  justify-content: center;
+
+}
+
+/* =========================
+   CARD BASE
+   ========================= */
+
+.research-card {
+  display: inline-block;          /* REQUIRED for masonry */
+  width: 100%;
+  max-width: 260px;
+  transform: scale(1.00);
+  margin-bottom: 1.5rem;
+
+  background: #e3f2fd;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* PI emphasis */
+.research-card.pi {
+  max-width: 260px;
+  transform: scale(1.05);
+}
+
+/* =========================
+   IMAGE (SQUARE CROP)
+   ========================= */
+
+.research-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #cfd8dc;
+}
+
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* =========================
+   TEXT
+   ========================= */
+
+.research-main {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.research-info {
+  padding: 0.75rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.research-info h3 {
+  margin: 0.25rem 0 0.15rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.research-info .title {
+  font-size: 0.85rem;
+  margin: 0.2rem 0;
+  color: #333;
+}
+
+.research-info .institution {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* =========================
+   ICONS
+   ========================= */
+
+.research-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0 0.75rem;
+}
+
+.research-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.research-icons a:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 1024px) {
+  .team-row.masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .team-row.masonry {
+    column-count: 1;
+  }
+}
+
