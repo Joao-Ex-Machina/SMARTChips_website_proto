@@ -1,9 +1,9 @@
 - name: Mário Véstias
-  title: Principal Investigator
+  title: Principal Researcher
   order: 0
   image: Mario-Vestias.jpg
   institution: INESC-INOvLabs
-  link: https://jbcr.pt
+  link: 
   orcid: https://orcid.org/0000-0002-1825-0097
   cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
 
@@ -43,22 +43,33 @@
   orcid: 
   cienciavitae: 
 
+- name: Luís Mendes
+  title: Researcher
+  order: 1
+  image: Luis-Mendes.png 
+  institution: IT
+  link:
+  orcid: 
+  cienciavitae: 
+
+
+
 - name: João Barreiros Rodrigues
   title: Early-Stage Researcher
-  institution: INESC-INOvLabs
+  institution: INESC-INOVLabs
   order: 10
   image: Joao-Rodrigues.jpg
   link: https://jbcr.pt
   orcid: https://orcid.org/0000-0002-1825-0097
   cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
 
-- name: João Barreiros C. Rodrigues
+- name: Jaime Aguiar
   title: Early-Stage Researcher
   institution: INESC-INOvLabs
   order: 10
   image: Joao-Rodrigues.jpg
   link: https://jbcr.pt
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  orcid: 
+  cienciavitae:
 
 
