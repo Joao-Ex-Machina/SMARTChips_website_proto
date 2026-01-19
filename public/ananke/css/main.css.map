@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/jbcr/smartchipsWeb",
+	"sourceRoot": "/home/jbcr/SMARTChips_website_proto",
 	"sources": [
 		"ananke/css/main.css"
 	],

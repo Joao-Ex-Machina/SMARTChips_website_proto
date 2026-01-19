@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "SmartChips"
+title = "SMARTChips"
 theme = 'ananke'
 
 
@@ -13,4 +13,28 @@ description = "In-Silicon NPU investigation project"
 background_color_class = "bg-black"
 recent_posts_number = 3
 custom_css = ["css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/#about"
+    weight = 1
+  [[menu.main]]
+    name = "Team"
+    url = "/#team"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+[[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+
 

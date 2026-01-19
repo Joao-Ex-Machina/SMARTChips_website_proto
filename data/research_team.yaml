@@ -2,37 +2,37 @@
   title: Principal Researcher
   order: 0
   image: Mario-Vestias.jpg
-  institution: INESC-INOvLabs
+  institution: INESC-INOVLabs
   link: 
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  orcid: https://orcid.org/0000-0001-8556-4507
+  cienciavitae: www.cienciavitae.pt/4717-C2C7-3F2C
 
 - name: Horácio Neto
   title: Senior Researcher
   order: 1
   image: Horacio-Neto.jpg 
-  institution: INESC-INOvLabs
-  link: https://jbcr.pt
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  institution: INESC-INOVLabs
+  link:
+  orcid: https://orcid.org/0000-0002-3621-8322 
+  cienciavitae: https://www.cienciavitae.pt/portal/en/9915-3BDF-5C35
 
 - name: José Teixeira de Sousa
   title: Senior Researcher
   order: 1
   image: Jose-Teixeira-de-Sousa.jpg
-  institution: INESC-INOvLabs
-  link: https://jbcr.pt
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  institution: INESC-INOVLabs
+  link: 
+  orcid: https://orcid.org/0000-0001-7525-7546
+  cienciavitae: https://www.cienciavitae.pt/BE18-E262-E0EC 
 
 - name: Rui Policarpo Duarte
   title: Senior Researcher
   order: 1
   image: Rui-Duarte.jpg
-  institution: INESC-INOvLabs
-  link: https://jbcr.pt
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  institution: INESC-INOVLabs
+  link:
+  orcid: https://orcid.org/0000-0002-7060-4745
+  cienciavitae: https://www.cienciavitae.pt/portal/B91E-770F-19A3
 
 - name: João Vaz
   title: Senior Researcher
@@ -52,23 +52,21 @@
   orcid: 
   cienciavitae: 
 
-
-
 - name: João Barreiros Rodrigues
   title: Early-Stage Researcher
   institution: INESC-INOVLabs
   order: 10
   image: Joao-Rodrigues.jpg
   link: https://jbcr.pt
-  orcid: https://orcid.org/0000-0002-1825-0097
-  cienciavitae: https://www.cienciavitae.pt/portal/AB12-CD34
+  orcid: https://orcid.org/0009-0002-6324-2384
+  cienciavitae: https://www.cienciavitae.pt/portal/en/BA12-7BD3-5A15
 
 - name: Jaime Aguiar
   title: Early-Stage Researcher
-  institution: INESC-INOvLabs
+  institution: INESC-INOVLabs
   order: 10
-  image: Joao-Rodrigues.jpg
-  link: https://jbcr.pt
+  image:
+  link: 
   orcid: 
   cienciavitae:
 
