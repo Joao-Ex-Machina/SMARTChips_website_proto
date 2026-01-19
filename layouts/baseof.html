@@ -61,8 +61,9 @@
 
     {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
+	    {{ block "main" . }}{{ end }}
+	    </main>
+    
     {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{ end }}
   </body>
 </html>

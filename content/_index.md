@@ -1,10 +1,10 @@
 ---
 title: "SMARTChips"
-
 description: "In-Silicon NPU for Embedded Intelligence Research"
 theme_version: '2.8.2'
 cascade:
   featured_image: 'background.gif'
+type: homepag
 ---
 # About {#about}
 The **SMARTChips** project aims to design and develop a **configurable Neural Processing Unit (NPU)** tailored for the efficient execution of **Convolutional Neural Networks (CNNs)**, together with a comprehensive framework to **optimize, transform, and map deep learning models** onto the proposed hardware architecture.

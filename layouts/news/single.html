@@ -1,0 +1,20 @@
+
+
+{{ define "main" }}
+<article class="news-single">
+
+  {{ with .Params.image }}
+    <img src="{{ . }}" alt="{{ .Title }}" class="news-single-image" />
+  {{ end }}
+
+  <time class="news-single-date">{{ .Date.Format "02 Jan 2006" }}</time>
+
+  <div class="news-single-content">
+    {{ .Content }}
+  </div>
+
+</article>
+{{ end }}
+
+
+
