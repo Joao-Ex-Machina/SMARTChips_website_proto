@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "SMARTChips"
+title = "SMARTChip"
 theme = 'ananke'
 
 
@@ -9,7 +9,7 @@ text_color = ""
 author = ""
 favicon = "favicon.png"
 site_logo = ""
-description = "In-Silicon NPU investigation project"
+description = "In-Silicon NPU research project"
 background_color_class = "bg-black"
 custom_css = ["css/custom.css"]
 

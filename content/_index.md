@@ -1,6 +1,6 @@
 ---
-title: "SMARTChips"
-description: "In-Silicon NPU for Embedded Intelligence Research"
+title: "SMARTChip"
+description: "In-Silicon Embedded Intelligence NPU Research"
 theme_version: '2.8.2'
 cascade:
   featured_image: 'bg.jpg'
