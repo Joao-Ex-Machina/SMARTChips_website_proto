@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SMARTChips</title>
-    <link>http://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on SMARTChips</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bolsa</title>
-      <link>http://example.org/news/test/</link>
+      <link>http://localhost:1313/news/test/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://example.org/news/test/</guid>
+      <guid>http://localhost:1313/news/test/</guid>
       <description>&lt;h1 id=&#34;open-position&#34;&gt;Open Position&lt;/h1&gt;&#xA;&lt;p&gt;detail&lt;/p&gt;&#xA;&lt;h1 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;why&#34;&gt;Why?&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Devlog</title>
-      <link>http://example.org/news/test2/</link>
+      <link>http://localhost:1313/news/test2/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://example.org/news/test2/</guid>
+      <guid>http://localhost:1313/news/test2/</guid>
       <description>&lt;h1 id=&#34;devlog-part-2&#34;&gt;Devlog part 2&lt;/h1&gt;&#xA;&lt;p&gt;blah blah blah&lt;/p&gt;&#xA;&lt;h1 id=&#34;devlog-part-1&#34;&gt;Devlog part 1&lt;/h1&gt;&#xA;&lt;p&gt;blah blah blah&lt;/p&gt;</description>
     </item>
   </channel>

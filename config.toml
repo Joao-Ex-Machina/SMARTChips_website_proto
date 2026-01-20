@@ -7,11 +7,10 @@ theme = 'ananke'
 [params]
 text_color = ""
 author = ""
-favicon = ""
+favicon = "favicon.png"
 site_logo = ""
 description = "In-Silicon NPU investigation project"
 background_color_class = "bg-black"
-recent_posts_number = 3
 custom_css = ["css/custom.css"]
 
 [menu]

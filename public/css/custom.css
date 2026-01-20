@@ -3,16 +3,47 @@ html {
 }
 
 
+main,
+main p,
+main li,
+main span,
+main div,
+main article,
+main section {
+  color: #D6D9DD !important;
+}
+
+
+/* Always use a dark base, regardless of browser/OS theme */
+:root { color-scheme: dark; }
+
+html, body {
+  background: #1f2326 !important;
+  color: #e6e6e6 !important;
+}
+
+/* Make common containers transparent so background shows through */
+main, header, footer, section, article {
+  background: transparent;
+}
+
+
+
+.inline a,
+.inline a:visited {
+    color: #9D7CFF !important;       /* override theme colors */
+    text-decoration: none !important; /* remove underline by default */
+}
 
 .nested-links a,
 .nested-links a:visited {
-    color: #18E5C4 !important;       /* override theme colors */
+    color: #9D7CFF !important;       /* override theme colors */
     text-decoration: none !important; /* remove underline by default */
 }
 
 .nested-links a:hover,
 .nested-links a:focus {
-    text-decoration: underline !important; /* underline on hover */
+    text-decoration: none !important; /* underline on hover */
 }
 
 
@@ -77,7 +108,7 @@ textarea {
   transform: scale(1.00);
   margin-bottom: 1.5rem;
 
-  background: #e3f2fd;
+  background: #15181b;
   border-radius: 12px;
   overflow: hidden;
   text-decoration:none;
@@ -147,13 +178,13 @@ textarea {
    ========================= */
 
 .research-main {
-   color: #18E5C4;
+   color: #9D7CFF;
   text-decoration: none;
   display: block;
 }
 
 .research-main a {
-   color: #18E5C4;
+   color: #9D7CFF;
   text-decoration: none;
   display: block;
 }
@@ -289,6 +320,10 @@ textarea {
 .cover > * {
     position: relative;
     z-index: 2;
+}
+
+.cover .pb7 {
+  background: rgba(0, 0, 0, 0.45); /* adjust opacity */
 }
 
 /* ========================
@@ -468,5 +503,58 @@ textarea {
 .card-description {
   margin: 0;
   color: #ccc;
+}
+
+
+
+/* Full-screen hero */
+.home .cover {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Bottom fade-out gradient */
+.home .cover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 35vh; /* controls fade length */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #1f2326 100% /* match your page background */
+  );
+  pointer-events: none;
+}
+
+
+
+
+/* Fade the overlay (this is the “abrupt edge” you’re seeing) */
+.home header.cover .bg-black-60,
+.home header.cover .bg-black-80 {
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.20) 65%,
+    rgba(0,0,0,0.00) 100%
+  ) !important;
+}
+
+/* Add a bottom fade into the next section */
+.home header.cover::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 35vh;
+  background: linear-gradient(to bottom,
+    rgba(31,35,38,0) 0%,
+    rgba(31,35,38,1) 100%
+  );
+  pointer-events: none;
 }
 
